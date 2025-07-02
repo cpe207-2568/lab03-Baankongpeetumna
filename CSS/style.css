@@ -1,0 +1,100 @@
+.my-rounded-all {
+    border-radius: 15px;
+  }
+
+  .my-rounded-right {
+  width: 200px; 
+  flex-shrink: 0;
+  border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden; 
+}
+
+.my-rounded-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .fontbig{
+  font-family: "Patrick Hand", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fontsmall{
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bgh{
+    background-color: blanchedalmond 
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(128, 97, 68)!important;
+    color: white !important; 
+}
+
+.nav-pills .nav-link {
+
+    color: black;
+    margin: 5px;
+  }
+
+  .nav-pills .nav-link:hover {
+
+    color: rgb(128, 97, 68);
+  }
+
+  .my-bg {
+  display: inline-block; 
+  background-color: #ffebcd; 
+  padding: 10px 20px;
+  border-radius: 15px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+  .gt {
+  display: inline-block;
+  background-color: #ffebcd;
+  
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.custom-img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .my-bg2 {
+  display: inline-block; 
+  background-color:rgb(128, 97, 68); 
+  color: #ffebcd; 
+   padding: 10px 20px;
+  border-radius: 15px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.c {
+    background-color: #ffebcd;
+}
+.center-box {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(98, 92, 77);
+  border-radius: 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: -1;
+}
